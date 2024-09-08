@@ -6,4 +6,4 @@ from src.handlers import send_welcome, handler  # noqa
 
 load_dotenv()
 
-asyncio.run(bot.polling())
+asyncio.run(bot.infinity_polling(5))
