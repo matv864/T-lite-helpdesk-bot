@@ -21,6 +21,6 @@
 - BOT_TOKEN=<токен_вашего_бота>
 - URL=<ссылка_на_АПИ_модели>
 
-зайти в переменное окружение
-pip install -r requirements.txt
-python main.py
+1. зайти в переменное окружение
+2. pip install -r requirements.txt
+3. python main.py
