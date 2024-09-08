@@ -59,6 +59,6 @@ async def handler(message: Message):
     except Exception:
         await bot.send_message(
             message.chat.id,
-            text="произошла ошибка, подождите, пожалуйста",
+            text="произошла ошибка, пожалуйста, повторите свой запрос",
             parse_mode="MarkdownV2"
         )
